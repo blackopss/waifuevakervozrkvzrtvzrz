@@ -35,7 +35,6 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 ////////end
 ///MUSIC
 const { Client, RichEmbed } = require("discord.js");
-const client = new Client({ disableEveryone: true})
 const ytdl = require("ytdl-core");
 const request = require("request");
 const convert = require("hh-mm-ss")
